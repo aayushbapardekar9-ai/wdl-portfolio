@@ -1,0 +1,35 @@
+/* General Layout */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Fieldset and Form Styling (Experiment 3) */
+fieldset {
+    border: 2px solid #004a99;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+legend {
+    font-weight: bold;
+    color: #004a99;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input[type="text"], input[type="email"], input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

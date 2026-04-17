@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Portal - KJSIT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Electronic & Telecommunication Dept</h1>
+        <p>Welcome to the Web Design Lab (Sem VIII)</p>
+    </header>
+
+    <main>
+        <section id="media">
+            <h2>Department Highlights</h2>
+            <video width="320" height="240" controls>
+                <source src="campus_tour.mp4" type="video/mp4">
+                Your browser does not support the video tag. [cite: 141, 142]
+            </video>
+            <audio controls>
+                <source src="lecture_intro.mp3" type="audio/mpeg">
+                Your browser does not support the audio element. [cite: 150, 151]
+            </audio>
+        </section>
+
+        <section id="registration">
+            <fieldset>
+                <legend>Student Registration Form</legend>
+                <form id="studentForm" onsubmit="return validateForm()">
+                    
+                    <label for="fname">Full Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Enter Name"> [cite: 191]
+                    
+                    <label for="email">College Email:</label>
+                    <input type="email" id="email" name="email"> [cite: 236, 291]
+                    
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob"> [cite: 234, 255]
+                    
+                    <label>Gender:</label>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female [cite: 205, 207]
+                    
+                    <label>Interests:</label>
+                    <input type="checkbox" name="interest" value="coding"> Coding
+                    <input type="checkbox" name="interest" value="iot"> IoT [cite: 199, 201]
+
+                    <label for="resume">Upload Resume:</label>
+                    <input type="file" id="resume" name="resume"> [cite: 217, 301]
+
+                    <input type="submit" value="Register Now"> [cite: 186, 224]
+                </form>
+            </fieldset>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
